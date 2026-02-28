@@ -1,0 +1,27 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    background: rgba(0,0,0,0.7);
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.label {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: 0 0 5px black;
+}
